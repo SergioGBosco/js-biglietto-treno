@@ -1,7 +1,8 @@
 // Km da percorrere
 
-const percorso = prompt("Inserisci la distanza da percorerre");
+const percorso = prompt("Quanti Kilometri devi Percorrere?");
 
 // età del passggero  
 
-const età = 
+const età = parseInt(prompt("Inserisci la tua età"));
+
