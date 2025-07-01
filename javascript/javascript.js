@@ -2,4 +2,6 @@
 
 const percorso = prompt("Inserisci la distanza da percorerre");
 
-// età del passggero 
+// età del passggero  
+
+const età = 
