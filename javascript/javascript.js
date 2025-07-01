@@ -16,6 +16,8 @@ const under = 0.80
 
 const over = 0.60
 
+// Condizione Metodo 1
+
 if (età < 18) {
   pricerun = [(price * under) * percorso];
 }
@@ -25,8 +27,9 @@ else if (età > 65) {
 }
 
 else {
-  pricerun = price * percorso
+  pricerun = price * percorso;
 
 }
-
-console.log(`il costro del tuo biglietto è ${pricerun}€`);
+let finalpricerunarrotondato = Number(pricerun);
+let finalpricerun = finalpricerunarrotondato.toFixed(2);
+console.log(`il costo del tuo biglietto è ${finalpricerun}€`);
